@@ -52,3 +52,6 @@ button {
 .titulo {
     margin-left: 8px;
 }
+.color{
+    display: flex;
+}

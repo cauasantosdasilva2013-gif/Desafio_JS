@@ -41,3 +41,12 @@ function Enviar() {
     }
     
 }
+
+window.onload = function(){
+    const termo = document.getElementById("termo");
+    const enviar = document.getElementById("enviar");
+
+    termo.addEventListener("change", function() {
+        enviar.disabled = !this.checked;
+    });
+};
